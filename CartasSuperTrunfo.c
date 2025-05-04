@@ -125,18 +125,18 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosturisticos2);
     printf("Densidade populacional: %.2f hab/km²\n", densidade2);
-    printf("PIB per Capita: %.2f reais\n", pibpercapita2);
+    printf("PIB per Capita: %.2f reais\n\n", pibpercapita2);
 
     // Impressão da comparação das cartas:
 
     printf("Comparação das Cartas: \n");
     printf("População: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadopopulacao);
-    printf("Área: %.d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadoarea);
-    printf("PIB: %.d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadopib);
+    printf("Área: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadoarea);
+    printf("PIB: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadopib);
     printf("Número de Pontos Turísticos: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadopontosturisticos);
-    printf("Densidade populacional: %d (Carta 1 venceu = 0 e Carta 2 venceu = 1)\n, resultadodensidade);
+    printf("Densidade populacional: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadodensidade);
     printf("PIB per Capita: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadopibpercapita);
-    printf("Superpoder: %.2f (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadosuperpoder);
+    printf("Superpoder: %d (Carta 1 venceu = 1 e Carta 2 venceu = 0)\n", resultadosuperpoder);
 
     return 0;
 }
